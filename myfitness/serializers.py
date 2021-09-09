@@ -5,4 +5,4 @@ from rest_framework import serializers
 class ExerciseSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Exercise
-        fields = ['title', 'reps', 'sets', 'rest', 'completed']
+        fields = ['id', 'title', 'reps', 'sets', 'rest', 'completed']
